@@ -17,36 +17,32 @@
         <div class="gema">
             <img src="Assets/Img/mole.png" width="250" alt="mole">
             <div>
-            <label>
-            <input value="gema_mole" name="preferencia" type="radio" id="gema_mole" checked > Mole
-            </label>
+            <input value="gema_mole" name="preferencia" type="radio" id="gema_mole" checked> 
+            <label for="'gema_mole">Mole</label>
             </div>
         </div>
 
         <div class="gema">
             <img src="Assets/Img/media.png" width="250" alt="media">
             <div>
-            <label>
-            <input value="gema_media" name="preferencia" type="radio" id="gema_media"> Média
-            </label>
+            <input value="gema_media" name="preferencia" type="radio" id="gema_media">
+            <label for="gema_media">Média</label>
             </div>
         </div>
 
         <div class="gema">    
             <img src="Assets/Img/Dura.png" width="250" alt="dura">
             <div>
-            <label>
-            <input value="gema_dura" name="preferencia" type="radio" id="gema_dura"> Dura
-            </label>
+            <input value="gema_dura" name="preferencia" type="radio" id="gema_dura">
+            <label for='gema_dura'>Dura</label>
             </div>
         </div>
     </div>
-
-    <div><button class="botao" type="submit" onclick="start()">Início</button></div>
-
+        <div><button class="botao" type="submit" onclick="startTimer()" id="start">Início</button></div>
+    <div id="res">Selecione a opção desejada</div>
+    <audio id="audio" src="alarm.mp3" style="display: none;"></audio>
     <div id="timer">
         <h2>00:00:00</h2>
     </div>
-        
 </body>
 </html>
