@@ -1,3 +1,5 @@
+
+/*
 var btnStart = window.document.getElementsById('#start');
 var tempo = 0;
 var duration = tempo * 60; // conversao para segundos
@@ -7,7 +9,7 @@ btnStart.addEventListener('Click', function() {
     alert("estou aqui");
     
 })
-
+*/
 startTimer(duration, display) // Inicia a função
 
 function startTimer(duration, display) {
@@ -27,6 +29,7 @@ function startTimer(duration, display) {
         var tempo = 12;
         alert(tempo)
     }
+
     var timer = duration, minutes, seconds;
 
     setInterval(function()  {
