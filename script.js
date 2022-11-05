@@ -1,16 +1,14 @@
 var btnStart = window.document.getElementsById('#start');
 var tempo = 0;
+var duration = tempo * 60; // conversao para segundos
+var display = document.querySelector("#timer") // Elemento para exibir o timer
 
 btnStart.addEventListener('Click', function() {
     alert("estou aqui");
-    startTimer();
-
-    var duration = tempo * 60; // conversao para segundos
-    var display = document.querySelector("#timer") // Elemento para exibir o timer
-
-    startTimer(duration, display) // Inicia a função
-
+    
 })
+
+startTimer(duration, display) // Inicia a função
 
 function startTimer(duration, display) {
     alert('agora estou aqui')
